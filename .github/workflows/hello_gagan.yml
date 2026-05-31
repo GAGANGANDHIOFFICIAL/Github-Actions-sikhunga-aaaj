@@ -8,7 +8,7 @@ on:
 jobs:
   greeting_to_saroj:
     runs-on: ubuntu-latest
-      steps:
-        - name: Greeting to Saroj Gandhi only
-          run: echo " Hi Saroj, How are You"
+    steps:
+      - name: Greeting to Saroj Gandhi only
+        run: echo " Hi Saroj, How are You"
           
