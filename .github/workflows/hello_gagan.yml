@@ -1,0 +1,14 @@
+name: Hello_to_saroj
+
+#runs on trigger
+on: 
+  push: 
+    branches: ['**']
+
+jobs:
+  greeting_to_saroj:
+    runs-on: ubuntu-latest
+      steps:
+        - name: Greeting to Saroj Gandhi only
+          run: echo " Hi Saroj, How are You"
+          
